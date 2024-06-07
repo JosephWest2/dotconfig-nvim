@@ -17,6 +17,7 @@ require("lazy").setup({
     {'nvim-lua/plenary.nvim'},
     {'nvim-treesitter/nvim-treesitter', lazy = false},
     {"catppuccin/nvim"},
+    "Pocco81/auto-save.nvim",
     'bluz71/vim-moonfly-colors',
     'bluz71/vim-nightfly-colors',
     'alexvzyl/nordic.nvim',

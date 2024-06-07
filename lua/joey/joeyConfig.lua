@@ -23,5 +23,3 @@ vim.keymap.set("i", "<down>", "<nop>", { noremap = true })
 vim.keymap.set('n', "<C-d>", "<C-d>zz")
 vim.keymap.set('n', "<C-u>", "<C-u>zz")
 
-vim.o.tabsize = 4
-vim.o.insertspaces = false
