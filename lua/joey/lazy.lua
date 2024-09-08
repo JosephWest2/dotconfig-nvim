@@ -25,6 +25,7 @@ require("lazy").setup({
     'rebelot/kanagawa.nvim',
     'navarasu/onedark.nvim',
     'theprimeagen/vim-be-good',
+    'm4xshen/autoclose.nvim',
     {
         'vonheikemen/lsp-zero.nvim',
         branch = 'v3.x'
