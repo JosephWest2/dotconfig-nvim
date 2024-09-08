@@ -10,7 +10,7 @@ end)
 require('mason').setup({})
 require('mason-lspconfig').setup({
     cmd = {'gopls', '--remote=auto'},
-    ensure_installed = { 'lua_ls', 'tsserver', 'gopls'},
+    ensure_installed = {},
     handlers = {
         function(server_name)
             require('lspconfig')[server_name].setup({})
