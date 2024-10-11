@@ -17,5 +17,7 @@ require('mason-lspconfig').setup({
         end,
     },
 })
-
+if(vim.g.zig_fmt_autosave) then
+    vim.g.zig_fmt_autosave = 0
+end
 vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, {})
